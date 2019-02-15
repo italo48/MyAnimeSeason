@@ -12,8 +12,6 @@ function isValidInput(input) {
     return true;
 }
 
-// renderiza o conteudo de 'data' que é um vetor de ojetos do localStorage 
-// com base no 'idList' que o id de um elemento ul dentro de listElement
 function render(idList, dataStorage) {
     if (dataStorage.length === 0) {
         listElement[idList].innerHTML = 'Não há animes';    
@@ -41,7 +39,6 @@ function render(idList, dataStorage) {
 }
 
 function add(idList, nameDataStorage, dataStorage, idInput) {
-    // existe uma forma mais correta de fazer isso, porem não é tao simples.
     let itemText = inputElement[idInput].value + ' - ' + optionElement.value;
 
     dataStorage.push(itemText);
