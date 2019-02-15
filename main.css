@@ -1,0 +1,94 @@
+/* RESET */
+*,
+ ::before,
+ ::after {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+     font-size: 1rem;
+     list-style: none;
+     text-decoration: none;
+     font-family: Arial;
+}
+button, select {
+    cursor: pointer;
+    color: white;
+}
+a {
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    margin-left: 15px;
+}
+/* footer stick */
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* CLASSES */
+.color-line {
+    padding: 15px;
+    background-color: darkviolet;
+    color: white;
+}
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+/* MAIN */
+main {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: darkviolet;
+}
+main ul, h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+main h2 {
+    font-size: 35px;
+    color: indigo;
+}
+main ul li {
+    margin: 10px 0;
+    font-size: 20px;
+    /* background-color: aqua;
+    padding: 5px 5px; */
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: springgreen;
+    border: none;
+    cursor: pointer;
+}
+main select {
+    background-color: indigo;
+    border: none;
+    padding: 4px 10px;
+}
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
